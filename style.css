@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Figtree", sans-serif;
+    /* display: flex; */
+    height: 100vh;
+    width: 100vw;
+    background-color: #f4d04e;
+}
+
+.container {
+    background-color: hsl(0, 0%, 100%);
+    justify-content: center;
+    align-content: center;
+    width: 377px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid #121212;
+    box-shadow: 10px 9px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.main p {
+    font-size: 16px;
+    color: #808080;
+}
+
+.img-box {
+    height: 200px;
+    background-image: url("/assets/images/illustration-article.svg");
+    border-radius: 10px;
+}
+
+.learning {
+    background-color: #f4d04e;
+    color: #1a1818;
+    margin: 20px 0px 10px 0;
+    width: fit-content;
+    padding: 5px 10px;
+    font-weight: 800;
+    border-radius: 5px;
+}
+
+h3 {
+    margin: 10px 0;
+}
+
+h3 a{
+    color: #121212;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 800;
+}
+
+h3 a:hover {
+    color: #f4d04e;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.user p {
+    margin: 0 10px;
+    color: #121212;
+    font-weight: 800;
+    font-size: 12px;
+}
+
+.attribution {
+    font-size: 11px; 
+    text-align: center; 
+    margin-top: 20px;
+   }
+.attribution a { 
+   color: hsl(228, 45%, 44%); 
+}
